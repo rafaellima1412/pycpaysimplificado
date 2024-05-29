@@ -1,9 +1,9 @@
-package com.example.repositories;
+package com.example.pycpaysimplificado.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.pycpaysimplificado.domain.transaction.Transaction;
 
-public interface TransactionRepository extends JpaRepository<Transaction, Long>{
+public interface TransactionRepository extends JpaRepository<Transaction, Long> {
 
 }
